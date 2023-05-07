@@ -1,0 +1,715 @@
+
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background: red;
+    display: inline;
+}
+
+.cuadrado2 {
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    animation: flash; 
+    animation-duration: 3s; 
+    
+}
+.cuadrado3 {
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    background: pink;
+    animation: pulse; 
+    animation-duration: 3s;
+
+}
+
+.rectangulo {
+    width: 250px;
+    height: 100px;
+    border: 3px solid #333;
+    background: #428bca;
+    animation: rubberBand; 
+    animation-duration: 3s;
+
+}
+
+.rombo {
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    background: yellow;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-left: 2rem;
+    animation: shakeX; 
+    animation-duration: 3s;
+}
+
+.rombo2 {
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    background: yellow;
+    -webkit-transform: rotate(45deg) skew(15deg, 15deg);
+    transform: rotate(45deg) skew(15deg, 15deg);
+    margin-left: 2rem;
+    animation: shakeY; 
+    animation-duration: 3s;
+} 
+
+.triangulo {
+    width: 0px;
+    height: 0px;
+    border-left: 100px solid blue;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    margin-left: 3.4rem;
+    margin-top: 4rem;
+    -webkit-transform: rotate(27deg);
+    transform: rotate(27deg); 
+    animation: headShake; 
+    animation-duration: 3s; 
+
+    
+}
+
+.cuadrado4 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: swing; 
+    animation-duration: 3s;
+}
+
+.cuadrado5 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: tada; 
+    animation-duration: 3s;
+}
+.cuadrado6 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: wobble; 
+    animation-duration: 3s;
+}
+
+.cuadrado7 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: jello; 
+    animation-duration: 3s;
+}
+
+
+.cuadrado8 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: heartBeat; 
+    animation-duration: 3s;
+}
+
+.cuadrado9 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: backInDown; 
+    animation-duration: 3s;
+}
+
+.cuadrado10 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: backInLeft; 
+    animation-duration: 3s;
+}
+
+.cuadrado11 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: backInRight; 
+    animation-duration: 3s;
+}
+
+.cuadrado12 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: backInUp; 
+    animation-duration: 3s;
+}
+
+.cuadrado13 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: backOutDown; 
+    animation-duration: 3s;
+}
+
+.cuadrado14 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: backOutLef; 
+    animation-duration: 3s;
+}
+
+.cuadrado15 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: backOutRight; 
+    animation-duration: 3s;
+}
+
+.cuadrado16 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: backOutUp; 
+    animation-duration: 3s;
+}
+
+.cuadrado17 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: bounceIn; 
+    animation-duration: 3s;
+}
+
+.cuadrado18 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: bounceInDown; 
+    animation-duration: 3s;
+}
+
+.cuadrado19 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: bounceInLeft; 
+    animation-duration: 3s;
+}
+
+.cuadrado20 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: bounceInRight; 
+    animation-duration: 3s;
+}
+
+.cuadrado21 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: bounceInUp; 
+    animation-duration: 3s;
+}
+
+.cuadrado22 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: bounceOut; 
+    animation-duration: 3s;
+}
+
+.cuadrado23 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: bounceOutDown; 
+    animation-duration: 3s;
+}
+
+.cuadrado24 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: bounceOutDown; 
+    animation-duration: 3s;
+}
+
+.cuadrado25 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: bounceOutLeft; 
+    animation-duration: 3s;
+}
+
+.cuadrado26 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: bounceOutRight; 
+    animation-duration: 3s;
+}
+
+.cuadrado27 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: bounceOutUp; 
+    animation-duration: 3s;
+}
+
+.cuadrado28 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: fadeIn; 
+    animation-duration: 3s;
+}
+
+.cuadrado29 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: fadeInDown; 
+    animation-duration: 3s;
+}
+
+.cuadrado30 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: fadeInDownBig; 
+    animation-duration: 3s;
+}
+
+.cuadrado31 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: fadeInLeft; 
+    animation-duration: 3s;
+}
+.cuadrado32 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: fadeInLeftBig; 
+    animation-duration: 3s;
+}
+
+.cuadrado33 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: fadeInRight; 
+    animation-duration: 3s;
+}
+
+.cuadrado34 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: fadeInRightBig; 
+    animation-duration: 3s;
+}
+
+.cuadrado35 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: fadeInUp; 
+    animation-duration: 3s;
+}
+
+.cuadrado36 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: fadeInUpBig; 
+    animation-duration: 3s;
+}
+
+.cuadrado37 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: fadeInTopLeft; 
+    animation-duration: 3s;
+}
+
+.cuadrado38 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: fadeInTopRight; 
+    animation-duration: 3s;
+}
+
+.cuadrado39 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: fadeInButtomLeft; 
+    animation-duration: 3s;
+}
+
+.cuadrado40 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: fadeInButtomRight; 
+    animation-duration: 3s;
+}
+
+.cuadrado41 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: flip; 
+    animation-duration: 3s;
+}
+
+.cuadrado42 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: flipInX; 
+    animation-duration: 3s;
+}
+
+.cuadrado43 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: flipInY; 
+    animation-duration: 3s;
+}
+
+.cuadrado44 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: flipOutX; 
+    animation-duration: 3s;
+}
+
+.cuadrado45 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: flipOutX; 
+    animation-duration: 3s;
+}
+
+.cuadrado46 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: lightSpeedinRight; 
+    animation-duration: 3s;
+}
+
+.cuadrado47 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: lightSpeedinLeft; 
+    animation-duration: 3s;
+}
+
+.cuadrado48 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: lightSpeedinOutRight; 
+    animation-duration: 3s;
+}
+
+
+.cuadrado49 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: lightSpeedinOutLeft; 
+    animation-duration: 3s;
+}
+
+.cuadrado50 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: rotateIn; 
+    animation-duration: 3s;
+}
+
+.cuadrado51 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: rotateInDownLeft; 
+    animation-duration: 3s;
+}
+
+.cuadrado52 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: rotateInDownRight; 
+    animation-duration: 3s;
+}
+
+.cuadrado53 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: rotateInUpLeft; 
+    animation-duration: 3s;
+}
+
+.cuadrado54 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: rotateInUpLeft; 
+    animation-duration: 3s;
+}
+
+.cuadrado55 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: rotateInUpRight; 
+    animation-duration: 3s;
+}
+
+.cuadrado56 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: rotate; 
+    animation-duration: 3s;
+}
+
+.cuadrado57 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: rotateOut; 
+    animation-duration: 3s;
+}
+
+.cuadrado58 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: rotateOutDownLeft; 
+    animation-duration: 3s;
+}
+
+.cuadrado59 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: rotateOutDownRight; 
+    animation-duration: 3s;
+}
+
+.cuadrado60 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: rotateOutUpLeft; 
+    animation-duration: 3s;
+}
+
+.cuadrado61 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: rotateOutUpRight; 
+    animation-duration: 3s;
+}
+
+.cuadrado62 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: hinge; 
+    animation-duration: 3s;
+}
+
+.cuadrado63 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: jackInTheBox; 
+    animation-duration: 3s;
+}
+
+.cuadrado64 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: rollIn; 
+    animation-duration: 3s;
+}
+
+.cuadrado65 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: rollOut; 
+    animation-duration: 3s;
+}
+
+.cuadrado66 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: zoomIn; 
+    animation-duration: 3s;
+} 
+
+.cuadrado67 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: zoomInDown; 
+    animation-duration: 3s;
+}   
+
+.cuadrado68 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: zoomInLeft; 
+    animation-duration: 3s;
+}   
+
+.cuadrado69 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: zoomInRight; 
+    animation-duration: 3s;
+}   
+
+.cuadrado70 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: zoomInUp; 
+    animation-duration: 3s;
+}   
+
+.cuadrado71 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: zoomOut; 
+    animation-duration: 3s;
+}  
+
+.cuadrado72 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: zoomOutDown; 
+    animation-duration: 3s;
+}   
+
+.cuadrado73 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: zoomOutLeft; 
+    animation-duration: 3s;
+}   
+
+.cuadrado74 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: zoomOutRight; 
+    animation-duration: 3s;
+}   
+
+.cuadrado75 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: zoomOutUp; 
+    animation-duration: 3s;
+}   
+
+.cuadrado76 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: slideInDown; 
+    animation-duration: 3s;
+}   
+
+.cuadrado77 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: slideInLeft; 
+    animation-duration: 3s;
+}  
+
+.cuadrado78 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: slideInRight; 
+    animation-duration: 3s;
+}  
+
+.cuadrado79 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: slideInUp; 
+    animation-duration: 3s;
+}  
+
+.cuadrado80 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: slideOutDown; 
+    animation-duration: 3s;
+}  
+
+.cuadrado81 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: slideOutLeft; 
+    animation-duration: 3s;
+}  
+
+.cuadrado82 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: slideOutRight; 
+    animation-duration: 3s;
+}  
+
+.cuadrado83 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: slideOutUp; 
+    animation-duration: 3s;
+}   

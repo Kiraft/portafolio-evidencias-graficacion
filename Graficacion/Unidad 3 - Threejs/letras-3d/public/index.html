@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Hola mundo threejs</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script>
+
+        const scene = new THREE.Scene();
+        const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+        const renderer = new THREE.WebGLRenderer();
+
+        renderer.setSize( window.innerWidth, window.innerHeight );
+        document.body.appendChild( renderer.domElement );
+
+        // Cargar la fuente
+        const fontLoader = new THREE.FontLoader();
+        
+        fontLoader.load( 'https://threejs.org/examples/fonts/helvetiker_regular.typeface.json', function ( font ) {
+
+            // Crear la geometría de texto
+            const textGeometry = new THREE.TextGeometry( 'Kiraft', {
+                font: font,
+                size: 1,
+                height: 0.1,
+                curveSegments: 12,
+                bevelEnabled: true,
+                bevelThickness: 0.05,
+                bevelSize: 0.05,
+                bevelSegments: 5
+            } );
+
+            // Calcular el centro de la geometría del texto
+            textGeometry.center();
+
+            // Crear el material y el objeto Mesh
+            const textMaterial = new THREE.MeshBasicMaterial( { color: 0x500A66 } );
+            const textMesh = new THREE.Mesh( textGeometry, textMaterial );
+
+            // Agregar el objeto Mesh a la escena
+            scene.add( textMesh );
+
+        } );
+
+        camera.position.z = 6;
+
+        function animate() {
+            requestAnimationFrame( animate );
+
+            // Rotar el texto
+            if (scene.children.length > 0) {
+                const object = scene.children[0];
+                object.rotation.y += 0.01;
+            }
+
+            renderer.render( scene, camera );
+        }
+
+        animate();
+
+    </script>
+</body>
+</html>
+
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script> -->

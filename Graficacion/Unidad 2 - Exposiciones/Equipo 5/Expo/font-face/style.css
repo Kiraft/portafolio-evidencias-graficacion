@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Pacifico'; 
+    src: url(./fonts/Pacifico-Regular.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'PressStart';
+    src: url(./fonts/PressStart2P-Regular.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.fuente-1 {
+    font-size: 45px;
+    font-family: 'Pacifico';
+}
+
+.fuente-2{
+    font-size: 40px;
+    font-family: 'PressStart';
+}
+
+
+
+
+

@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenedor{
+
+    margin:auto;
+    margin-top:50px;
+    border: 5px solid black;
+    width: 1200px;
+    height: 3700px;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+#lienzo{
+    border: 10px solid red;
+    
+}
+#lienzo1{
+    border: 10px solid red;
+    
+}
+#lienzo2{
+    border: 10px solid red;
+}
+#lienzo3{
+    border: 10px solid red;
+}
+#lienzo4{
+    border: 10px solid red;
+}
+#lienzo5{
+    border: 10px solid red ;
+}
+section{
+    width: 800px;
+    position: relative;
+    margin: auto;
+}
+
+body{
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
