@@ -1,0 +1,20 @@
+body {
+    background-color: purple;
+}
+
+h1,
+p {
+    color: white;
+}
+
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 50px;
+    margin-bottom: 100px;
+}
+
+.cuadrado-escalado {
+    transform: scale(2);
+}

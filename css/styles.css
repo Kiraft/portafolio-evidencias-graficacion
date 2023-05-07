@@ -11044,3 +11044,20 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+.trabajo h2 {
+  color: white !important
+}
+
+.contenedor-trabajos div {
+  background-color: #130f0f;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.trabajo button {
+  border-color: brown;
+}

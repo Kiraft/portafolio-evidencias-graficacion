@@ -1,0 +1,9 @@
+.cubito {
+    height: 500px;
+    width: 500px;
+    background-color: blue;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    position: relative;
+    translate: inherit;
+}
