@@ -12922,3 +12922,8 @@ html {
     background-position: 0 50%;
   }
 }
+
+.animar:hover{
+  animation: tada; 
+  animation-duration: 1s;
+}
