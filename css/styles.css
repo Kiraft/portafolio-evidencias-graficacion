@@ -12872,8 +12872,26 @@ html {
   color: white !important
 }
 
-.contenedor-trabajos div {
-  background-color: #130f0f;
+.u1 div {
+  background-color: #ba4c63;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.u2 div {
+  background-color: #00a5b8;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.u3 div {
+  background-color: #0c0606;
   border-radius: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -12926,4 +12944,35 @@ html {
 .animar:hover{
   animation: tada; 
   animation-duration: 1s;
+}
+/* Boton Estilos */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+
+.buttonContainer {
+  text-align: center;
+}
+
+a.button {
+  display: inline-block;
+
+  font: normal normal 300 1.3em 'Open Sans';
+  text-decoration: none;
+
+  color: rgba(255, 255, 255, 1);
+  brackground-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 100px;
+
+  padding: .3em 1.2em;
+  margin: 5px;
+
+  background-size: 200% 100%;
+  background-image: linear-gradient(to right, transparent 50%, rgba(255, 255, 255, 1) 50%);
+  transition: background-position .3s cubic-bezier(0.19, 1, 0.22, 1) .1s, color .5s ease 0s, background-color .5s ease;
+}
+
+a.button:hover {
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(255, 255, 255, 1);
+  background-position: -100% 100%;
 }
