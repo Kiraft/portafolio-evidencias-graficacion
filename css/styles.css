@@ -12946,7 +12946,7 @@ html {
   animation-duration: 1s;
 }
 /* Boton Estilos */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap');
 
 .buttonContainer {
   text-align: center;
@@ -12955,12 +12955,12 @@ html {
 a.button {
   display: inline-block;
 
-  font: normal normal 300 1.3em 'Open Sans';
+  font: 'Rubik' !important;
   text-decoration: none;
 
   color: rgba(255, 255, 255, 1);
   brackground-color: transparent;
-  border: 1px solid rgba(255, 255, 255, 1);
+  border: 2.5px solid rgba(255, 255, 255, 1);
   border-radius: 100px;
 
   padding: .3em 1.2em;
